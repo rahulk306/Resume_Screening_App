@@ -7,8 +7,8 @@ nltk.download('punkt')         # used in backend
 nltk.download('stopwords')
 
 # loading the models clf and tfidf
-clf = pickle.load(open('./clf.pkl','rb'))
-tfidfd = pickle.load(open('./tfidf.pkl','rb'))
+clf = pickle.load(open('.\clf.pkl','rb'))
+tfidfd = pickle.load(open('.\tfidf.pkl','rb'))
 
 def CleanResume(txt):
   cleanTxt = re.sub('http\S+\s',' ',txt)
