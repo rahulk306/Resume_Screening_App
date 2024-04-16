@@ -46,7 +46,7 @@ def CleanResume(txt):
 # if __name__ == "__main__":
 #   main()
 
-import streamlit as st
+# import streamlit as st
 from PyPDF2 import PdfReader
 
 # Function to extract text from PDF
